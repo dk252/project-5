@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Transcript</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to our wildlife website</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="https://dk252.github.io/dk252/">Home</a></li>
+        <li><a href="../original/index.html">Original Site</a></li>
+        <li><a href="../revised/index.html">Revised Site</a></li>
+        <li><a href="../improvements/improvements.html">Improvements</a></li>
+      </ul>
+        
+      <form class="search">
+        <input type="search" name="q" placeholder="Search query" aria-label="Search through the site content">
+        <input type="submit" value="Go!">
+      </form>   
+    </nav>  
+    
+      <main>
+        <article>
+            <h2>List of improvements made</h2>
+            
+            <h3>Color Contrast</h3>
+    <p>Changed navigation background color from green to white.</p>
+    <p>Changed contrasting welcome from white to black with a slightly grey small shadow.</p>
+
+            <h3>Semantic HTML</h3>
+    <p>Replaced the div class=nav/header with just header/nav elements.</p>
+    <p>Removed br tags and replaced with p tags.</p>
+    <p>Replaced font elements with actual heading elements like h1,h2,h3 etc.</p>
+    
+
+            <h3>CSS</h3>
+    <p>Replaced div nav css elements with just nav to reflect changes in the html document.</p>
+    <p>Replaced font 7,6,5 css elements with respective h1,h2,h3 elements to properly address the semantic html issues.</p>
+    
+            <h3>Images</h3>
+    <p>Added the alt text tag to images for a textual description of the image for screenreaders to play.</p>
+
+            <h3>Audio Player</h3>
+    <p>Added a transcipt.html file to transcribe the audio file for hearing impaired users.</p>
+    <p>Added a direct link to the audio file for browsers that don't support html5 audio.</p>
+
+            <h3>Form Elements</h3>
+    <p>Added a description of the search input element so it's read out by screenreaders saying to search the site's content.</p>
+
+            <h3>Show/hide Comment Control Button</h3>
+    <p>Changed the div element that was used for the show/hide comment control to a button element</p>
+
+            <h3>Table</h3>
+    <p>Added a summary to the table that describes what the table has inside of it.</p>
+    <p>Changed the first row and column into the th tag for proper table tags.</p>
+    <p>Specified header cells as rows and columns using the scope attribute with col/row values.</p>
+
+            <h3>Other Improvements I Made</h3>
+    <p>Added the lang=en-US tag to the html doctype opening.</p>
+    <p>Changed the color of the opening welcome message above the page to a non contrasting color.</p>
+
+        </article>
+
+      <div class="secondary">
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">The trouble with Bees</a></li>
+          <li><a href="#">The trouble with Otters</a></li>
+          <li><a href="#">The trouble with Penguins</a></li>
+          <li><a href="#">The trouble with Octopi</a></li>
+          <li><a href="#">The trouble with Lemurs</a></li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+
+    <script src="main.js"></script>
+
+        
+    
+  </body>
+</html>
